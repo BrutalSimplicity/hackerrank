@@ -48,6 +48,6 @@ print perm_list
 
 print is_increasing(perm_list[0])
 
-#for test_case in range(num_cases):
-#	winner = "Alice" if play_game(perm_list[test_case]) == 0 else "Bob"
-#	print(winner)
+for test_case in range(num_cases):
+	winner = "Alice" if play_game(perm_list[test_case]) == 0 else "Bob"
+	print(winner)
