@@ -1,0 +1,6 @@
+[package]
+name = "arrays-ds"
+version = "0.1.0"
+authors = ["krtaborn <kory.taborn@gmail.com>"]
+
+[dependencies]
