@@ -1,0 +1,6 @@
+[package]
+name = "counter-game"
+version = "0.1.0"
+authors = ["Maestro <kory.taborn@gmail.com>"]
+
+[dependencies]
