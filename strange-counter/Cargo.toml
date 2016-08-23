@@ -1,0 +1,6 @@
+[package]
+name = "strange-counter"
+version = "0.1.0"
+authors = ["krtaborn <kory.taborn@gmail.com>"]
+
+[dependencies]

@@ -1,0 +1,34 @@
+use std::io;
+use std::str;
+
+fn read_value<T: str::FromStr>() -> T {
+  let mut input = String::new();
+  io::stdin().read_line(&mut input).expect("Failed to read line");
+  let val: T = match T::from_str(input.trim()) {
+    Ok(n) => n,
+    Err(e) => panic!("Error parsing value: {}", e),
+  };
+
+  val
+}
+
+fn read_line() -> String {
+  let mut input = String::new();
+  io::stdin().read_line(&mut input).expect("Failed to read line");
+
+  input.trim().to_string()
+}
+
+fn solve() {
+  let heights = read_line().split_whitespace().collect();
+  println!("{}", heights.len());
+  let mut
+}
+
+fn main() {
+    let num_tests = read_value::<i32>();
+
+    for _ in 0..num_tests {
+      solve();
+    }
+}
