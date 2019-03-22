@@ -7,6 +7,4 @@ process.
 
 Languages used so far:
 
-Python, C#, C++, C, Rust
-
-*Hopefully much more Rust and some Scala coming soon!*
+Python, C#, C++, C, Rust, F#
